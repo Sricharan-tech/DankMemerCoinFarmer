@@ -7,7 +7,7 @@ async def on_ready():
 
 @client.event
 async def on_connect():
-    channel = client.get_channel(752051281950015570)
+    channel = client.get_channel(937602106318278677)
     while True:
         await channel.send("pls hunt")
         time.sleep(5)
